@@ -1,0 +1,1 @@
+g++ -o base_main base_main.cpp base_station.cpp misbio_mysql.cpp handle_config.cpp -I ../inc/ -I/usr/include/mysql/ -L/usr/lib64/mysql/ -lmysqlclient -lstdc++ -lpthread
